@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4e9c121.chunk.css",
-    "main.js": "/static/js/main.c8fb6596.chunk.js",
-    "main.js.map": "/static/js/main.c8fb6596.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8420a2c1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8420a2c1.js.map",
-    "static/js/2.a5c4f0f8.chunk.js": "/static/js/2.a5c4f0f8.chunk.js",
-    "static/js/2.a5c4f0f8.chunk.js.map": "/static/js/2.a5c4f0f8.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.c4e9c121.chunk.css.map": "/static/css/main.c4e9c121.chunk.css.map",
-    "static/js/2.a5c4f0f8.chunk.js.LICENSE.txt": "/static/js/2.a5c4f0f8.chunk.js.LICENSE.txt"
+    "main.css": "/bedev-react-taildwind-css/static/css/main.c4e9c121.chunk.css",
+    "main.js": "/bedev-react-taildwind-css/static/js/main.c8fb6596.chunk.js",
+    "main.js.map": "/bedev-react-taildwind-css/static/js/main.c8fb6596.chunk.js.map",
+    "runtime-main.js": "/bedev-react-taildwind-css/static/js/runtime-main.eaa87be7.js",
+    "runtime-main.js.map": "/bedev-react-taildwind-css/static/js/runtime-main.eaa87be7.js.map",
+    "static/js/2.a5c4f0f8.chunk.js": "/bedev-react-taildwind-css/static/js/2.a5c4f0f8.chunk.js",
+    "static/js/2.a5c4f0f8.chunk.js.map": "/bedev-react-taildwind-css/static/js/2.a5c4f0f8.chunk.js.map",
+    "index.html": "/bedev-react-taildwind-css/index.html",
+    "static/css/main.c4e9c121.chunk.css.map": "/bedev-react-taildwind-css/static/css/main.c4e9c121.chunk.css.map",
+    "static/js/2.a5c4f0f8.chunk.js.LICENSE.txt": "/bedev-react-taildwind-css/static/js/2.a5c4f0f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8420a2c1.js",
+    "static/js/runtime-main.eaa87be7.js",
     "static/js/2.a5c4f0f8.chunk.js",
     "static/css/main.c4e9c121.chunk.css",
     "static/js/main.c8fb6596.chunk.js"
