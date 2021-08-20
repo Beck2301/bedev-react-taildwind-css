@@ -2,6 +2,7 @@
   "name": "bedev",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://beck2301.github.io/bedev-react-taildwind-css",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^5.14.1",
