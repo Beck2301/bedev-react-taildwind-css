@@ -69,10 +69,10 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #1154;
+    border-bottom: 1px solid rgb(240, 176, 0);
     transition: all 0.2s ease-out;
   }
-  
+
 
   .fas{
     color: black;
@@ -125,8 +125,8 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
+  
+  
       border-radius: 0;
     }
   
@@ -175,9 +175,7 @@
     }
   
     .nav-links-mobile:hover {
-      background: rgb(0, 0, 0);
-      color: #242424;
-      transition: 250ms;
+ 
     }
   }
   

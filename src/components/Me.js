@@ -16,7 +16,7 @@ function Me() {
                         <h1 class="text-6xl  md:text-8xl   mb-5 ">Bryan Escobar </h1>
                         <h1 class=" md:text-3xl">web development and pupusas lover</h1>
                         <Link to='/about'>
-                        <button class="pr-4 pl-4 mt-3 text-base border-yellow-300 text-black  dark:border-white   dark:text-yellow-400 border-2 rounded-3xl hover:bg-yellow-400 dark:  dark:hover:text-black hover:border-black   dark:hover:bg-yellow-500  dark:hover:border-yellow-500" >About me</button>
+                        <button class="px-10 py-3 mt-4 text-base border-yellow-300 text-black  dark:border-white   dark:text-yellow-400 border-2 rounded-3xl hover:bg-yellow-400 dark:  dark:hover:text-black hover:border-black   dark:hover:bg-yellow-500  dark:hover:border-yellow-500" >About me</button>
                         </Link>
                     </div>
                 </div>
