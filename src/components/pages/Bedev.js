@@ -1,12 +1,13 @@
 import React from 'react'
-import Me  from '../Me'
+import Me from '../Me'
 
 function Bedev() {
     return (
         <>
-            <Me/>
+            <Me />
         </>
     )
 }
 
 export default Bedev
+

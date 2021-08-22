@@ -5,6 +5,7 @@ import Bedev from './components/pages/Bedev';
 import Navbar from './components/Navbar'
 import About from './components/pages/About';
 
+
 function App() {
   return (
     <>

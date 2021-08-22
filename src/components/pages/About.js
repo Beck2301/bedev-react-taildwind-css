@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutMe from '../AboutMe'
 
 function About() {
     return (
         <>
-            <h3 className="text-white">SOBRE MI</h3>
+         <AboutMe/>
         </>
     )
 }
