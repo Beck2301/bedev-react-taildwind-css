@@ -11,11 +11,11 @@ function AboutMe() {
                     <div class="pl-4 pr-4 md:flex-1 m-auto  md:text-left dark:text-white">
                         <h1 class="wow animate__animated animate__fadeInDown   mb-9 font-bold rounded-lg  tracking-widest  text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600" >ABOUT ME </h1>
 
-                        <h1 class="  md:text-5xl " >Who I am? </h1>
+                        <h1 class="text-5xl  md:text-5xl " >Who I am? </h1>
 
                         <p className="md:w-11/12 md:text-xl  mt-5 mb-5 wow animate__animated animate__fadeInRight ">My name is <b className="text-yellow-500" >Bryan Escobar</b>, i am a person who loves challenges and does not give up easily. Very detailed, I never stop learning, easy to socialize and deal with people, web developer and lover from frontend world.</p>
 
-                        <h1 class=" md:text-5xl flex-initial mb-4 wow animate__animated animate__fadeInRight"  >Academic training and courses </h1>
+                        <h1 class="text-5xl md:text-5xl flex-initial mb-4 wow animate__animated animate__fadeInRight"  >Academic training and courses </h1>
 
                         <div class="md:flex">
                             <div class="p-5 md:pr-5 pb-10 w-full md:w-1/2 wow animate__animated animate__fadeInUp  ">
