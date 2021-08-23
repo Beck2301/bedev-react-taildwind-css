@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 
 
@@ -8,6 +9,7 @@ export default function useDarkMode() {
         const root = window.document.documentElement;
         root.classList.remove(colorTheme);
         root.classList.add(theme);
+        //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [theme], colorTheme)
     return [colorTheme, setTheme];
 }
