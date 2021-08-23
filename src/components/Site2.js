@@ -29,8 +29,9 @@ function Site2() {
                 <img src="https://i.ibb.co/JQTgJrk/2.png" alt="" className=" m-auto wow animate__animated animate__fadeInUp " />
                 <img src="https://i.ibb.co/Mcv1Kjy/3.png" alt="" className="m-auto wow animate__animated animate__fadeInUp " />
             </div>
-
+       
             <div className="text-white text-center p-10 m-auto wow animate__animated animate__fadeInLeft ">
+                     {/* eslint-disable-next-line  */}
                 <a href="https://beck2301.github.io/covid19/" target="_blank" className="">
                     <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-12 shadow-2xl md:text-5xl text-lg rounded-2xl dark:text-white text-black">
                         Visit Covid-19 El Salvador <i class="fas fa-link dark:text-white"></i>

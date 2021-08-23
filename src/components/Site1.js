@@ -29,6 +29,7 @@ function Site1() {
             </div>
 
             <div className="text-white text-center p-10 ">
+                     {/* eslint-disable-next-line  */}
                 <a href="https://wlhgrandesalturas.com" target="_blank" className="">
                     <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-12 shadow-2xl md:text-5xl text-lg rounded-2xl dark:text-white text-black">
                         Visit WLH Grandes Alturas <i class="fas fa-link dark:text-white"></i>
