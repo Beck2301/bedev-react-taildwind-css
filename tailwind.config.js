@@ -11,6 +11,13 @@ module.exports = {
         wider: '.05em',
        widest: '.1em',
        widest: '1.5rem',
+       },
+       extend:{
+         colors:{
+          blue: {
+            dark: '#1f2447',
+          },
+         }
        }
   },
   variants: {
