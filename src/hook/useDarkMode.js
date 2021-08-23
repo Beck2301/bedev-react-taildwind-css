@@ -1,6 +1,6 @@
 
 import { createAtom, useAtom } from "aesthetic-state";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export const THEME = createAtom({
     name: 'theme',
@@ -26,5 +26,6 @@ export default function useDarkMode() {
         root.classList.add(theme);
         //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [theme])
+    // eslint-disable-next-line
     return [, actions.toggle];
 }
