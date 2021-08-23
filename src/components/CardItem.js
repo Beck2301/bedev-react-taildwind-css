@@ -6,6 +6,7 @@ function CardItem(props) {
     <>
       <li className='flex flex-1 mr-4 ml-4 rounded-xl md:mb-2  mb-8 '>
         <Link className='flex flex-col w-full shadow-2xl rounded-2xl overflow-hidden no-underline' to={props.path}>
+          
           <figure className='cards__item__pic-wrap relative w-full  pt-16 overflow-hidden' >
            {/* eslint-disable-next-line */}
             <img
@@ -18,7 +19,9 @@ function CardItem(props) {
             <h5 className='dark:text-white'>{props.text}</h5>
           </div>
         </Link>
+        
       </li>
+      
       
     </>
   );

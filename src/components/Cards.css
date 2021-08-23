@@ -34,4 +34,16 @@
   
  
   
- 
+ .rectangle{
+   /* Rectangle 3 */
+
+position: absolute;
+width: 1632.82px;
+height: 20.14px;
+left: -38px;
+top: 752.98px;
+
+background: #FFB803;
+transform: rotate(-2.56deg);
+
+ }

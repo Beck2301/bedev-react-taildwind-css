@@ -7,7 +7,6 @@ function Projects() {
     return (
         <>
         <Cards />
-      
         </>
     )
 }

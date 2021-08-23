@@ -6,31 +6,32 @@ function Cards() {
     return (
 
         <>
-        
+
             <h1 class="wow animate__animated animate__fadeInDown   mb-9 font-bold rounded-lg  tracking-widest  text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600 text-center mt-2" >MY PROJECTS </h1>
             <div className=' dark:text-white'>
                 <div className='flex flex-col items-center md:max-w-screen-xl w-11/12 m-auto '>
-                    <div className='relative'>
+                    <div className='relative' >
+                        
                         <ul className='mb-5 md:flex '>
                             <CardItem
                                 src='https://i.ibb.co/gzGTRHw/wlh.png'
                                 text='WLH Grandes Alturas is a website with information about the company, I built the whole website '
                                 path='/wlh'
                             />
+                         
 
                             <CardItem
                                 src='https://i.ibb.co/0VWFWHK/covid19.png'
-                                text='COVID 19 web site'
-
-                                path='/'
+                                text='COVID 19 web site that shows the data of the covid 19 in el salvador and in central america '
+                                path='/covid19sv'
                             />
-                                <CardItem
+                            <CardItem
                                 src='https://i.ibb.co/W0fR0xn/casatic.png'
                                 text='CASA TIC web site'
 
                                 path='/'
                             />
-                            
+
                         </ul>
                         <ul className='mb-5 md:flex'>
                             <CardItem
@@ -46,17 +47,19 @@ function Cards() {
 
                                 path='/'
                             />
-                                <CardItem
+                            <CardItem
                                 src='https://raw.githubusercontent.com/briancodex/react-website-v1/master/public/images/img-3.jpg'
                                 text='nothing'
 
                                 path='/'
                             />
-                            
+
                         </ul>
                     </div>
                 </div>
             </div>
+         
+
         </>
     );
 }

@@ -8,8 +8,7 @@ module.exports = {
        tight: '-.025em',
         normal: '0',
        wide: '.025em',
-        wider: '.05em',
-       widest: '.1em',
+        wider: '0.8rem',
        widest: '1.5rem',
        },
        extend:{

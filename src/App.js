@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Site1 from './components/Site1';
+import Site2 from './components/Site2';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' component={About}></Route>
           <Route path='/projects'component={Projects}></Route>
           <Route path='/wlh' component={Site1}></Route>
+          <Route path='/covid19sv' component={Site2}/>
         </Switch>
       </Router>
     </>
