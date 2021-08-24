@@ -1,6 +1,11 @@
 import React from 'react'
 import Footer from './Footer'
+import {useEffect} from 'react'
 function Site1() {
+    useEffect(() => {
+        window.scrollTo({ top: 0 })
+        return () => { window.scrollTo({ top: 0 }) };
+    }, [])
     return (
 
         <>
@@ -12,7 +17,7 @@ function Site1() {
                 </div>
             </a>
 
-            <div className="bg-blue-dark " >
+            <div className="bg-black " >
                 <div className="flex items-center md:flex-row justify-center flex-col container m-auto   p-10 rounded-2xl" >
                     <div className="flex-1  text-center md:text-justify text-white  dark:text-white md:text-2xl">
                         <h1 className="wow animate__animated animate__fadeInLeft mb-5 md:mb-0 ">Wlh Grandes Alturas is a website in which I was in charge of designing, layout and programming.  Apply SEO to be searchable on Google I set up the site with your host in Vercel</h1>

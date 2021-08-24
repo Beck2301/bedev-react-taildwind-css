@@ -54,7 +54,9 @@ function Cards() {
                                 src='https://i.ibb.co/C9sgSmF/logos.png'
                                 text=' In my CodePen you will find some small but interesting projects'
 
-                                path='wait'
+                                path='/wait'
+                                 
+                                 
                             />
 
                         </ul>

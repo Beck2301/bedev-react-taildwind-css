@@ -24,23 +24,22 @@ function Site4() {
                         <h1 className="wow animate__animated animate__fadeInLeft mb-5 md:mb-0 ">MARKTECH is an unfinish prototype of an online gamer store, realizada con Bootstrap, js, css and HTML. Full Responsive.</h1>
                     </div>
                     <div className="flex-1">
-                        <img src="https://i.ibb.co/MnR7vQG/7.png" alt="" className="m-auto wow animate__animated animate__fadeInRight  md:w-5/6" />
+                        <img src="https://i.ibb.co/z7r523n/Copia-de-Sin-t-tulo-3.png" alt="" className="m-auto wow animate__animated animate__fadeInRight  md:w-5/6" />
                     </div>
+                    {/* https://i.ibb.co/MnR7vQG/7.png */}
                 </div>
 
             </div>
-            <div className="md:py-28 flex items-center justify-center m-auto md:flex-row flex-col">
-                <img src="https://i.ibb.co/z7r523n/Copia-de-Sin-t-tulo-3.png" alt="" className=" m-auto wow animate__animated animate__fadeInUp md:w-2/6" />
-                <img src="https://i.ibb.co/GCth7cL/9.png" alt="" className="m-auto wow animate__animated animate__fadeInUp   md:w-2/6" />
-            </div>
-
-            <div className="text-white text-center p-10 ">
-                     {/* eslint-disable-next-line  */}
-                <a href="https://beck2301.github.io/marktechsv/" target="_blank" className="">
-                    <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-12 shadow-2xl md:text-5xl text-lg rounded-2xl dark:text-white text-black">
-                        Visit Marktech <i class="fas fa-link dark:text-white"></i>
+            <div className="md:px-28 py-11 flex items-center justify-center m-auto md:flex-row flex-col">
+                <img src="https://i.ibb.co/GCth7cL/9.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1" />
+                 {/* eslint-disable-next-line */}
+                <a href="https://beck2301.github.io/marktechsv/" target="_blank" className="flex-1">
+                    
+                    <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-9 shadow-lg md:text-5xl text-lg rounded-2xl dark:text-white text-black">
+                    Visit Marktech <i class="fas fa-link dark:text-white"></i>
                     </button>
                 </a>
+              
             </div>
             <Footer />
         </>
