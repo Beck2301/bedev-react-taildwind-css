@@ -11,14 +11,14 @@ function Cards() {
             <div className=' dark:text-white'>
                 <div className='flex flex-col items-center md:max-w-screen-xl w-11/12 m-auto '>
                     <div className='relative' >
-                        
+
                         <ul className='mb-5 md:flex '>
                             <CardItem
                                 src='https://i.ibb.co/gzGTRHw/wlh.png'
                                 text='WLH Grandes Alturas is a website with information about the company, I built the whole website '
                                 path='/wlh'
                             />
-                         
+
 
                             <CardItem
                                 src='https://i.ibb.co/0VWFWHK/covid19.png'
@@ -37,7 +37,7 @@ function Cards() {
                             <CardItem
                                 src='https://i.ibb.co/VCjLbL6/marktechj.png'
                                 text='MARKTECH is an unfinish prototype of an online gamer store '
-                                
+
                                 path='/marktech'
                             />
 
@@ -48,17 +48,17 @@ function Cards() {
                                 path='/on-the-rocks'
                             />
                             <CardItem
-                                src='https://raw.githubusercontent.com/briancodex/react-website-v1/master/public/images/img-3.jpg'
-                                text='nothing'
+                                src='https://i.ibb.co/C9sgSmF/logos.png'
+                                text=' In my CodePen you will find some small but interesting projects'
 
-                                path='/'
+                                path='https://codepen.io/beck2301'
                             />
 
                         </ul>
                     </div>
                 </div>
             </div>
-         
+
 
         </>
     );
