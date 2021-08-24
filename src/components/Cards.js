@@ -36,14 +36,14 @@ function Cards() {
                         <ul className='mb-5 md:flex'>
                             <CardItem
                                 src='https://i.ibb.co/VCjLbL6/marktechj.png'
-                                text='Marktech website'
-
+                                text='MARKTECH is an unfinish prototype of an online gamer store '
+                                
                                 path='/marktech'
                             />
 
                             <CardItem
                                 src='https://i.ibb.co/Tc09mPG/Copia-de-Copia-de-on-the-rocks.png'
-                                text='OntheRocks website'
+                                text=' ON THE ROCKS is a website under development where you can get information about the company'
 
                                 path='/on-the-rocks'
                             />

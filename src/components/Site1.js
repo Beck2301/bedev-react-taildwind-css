@@ -18,14 +18,14 @@ function Site1() {
                         <h1 className="wow animate__animated animate__fadeInLeft mb-5 md:mb-0 ">Wlh Grandes Alturas is a website in which I was in charge of designing, layout and programming.  Apply SEO to be searchable on Google I set up the site with your host in Vercel</h1>
                     </div>
                     <div className="flex-1">
-                        <img src="https://i.ibb.co/1zjvmFB/1.png" alt="" className="m-auto wow animate__animated animate__fadeInRight " />
+                        <img src="https://i.ibb.co/mRnhbg0/4.png" alt="" className="m-auto wow animate__animated animate__fadeInRight  md:w-5/6" />
                     </div>
                 </div>
 
             </div>
             <div className="md:py-28 flex items-center justify-center m-auto md:flex-row flex-col">
-                <img src="https://i.ibb.co/Z8PHzMF/2.png" alt="" className=" m-auto wow animate__animated animate__fadeInUp " />
-                <img src="https://i.ibb.co/h8TrDN6/Dise-o-sin-t-tulo-12.png" alt="" className="m-auto wow animate__animated animate__fadeInUp " />
+                <img src="https://i.ibb.co/RTJnRYk/5.pngg" alt="" className=" m-auto wow animate__animated animate__fadeInUp  md:w-2/6" />
+                <img src="https://i.ibb.co/YDP38N4/6.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-2/6 " />
             </div>
 
             <div className="text-white text-center p-10 ">
