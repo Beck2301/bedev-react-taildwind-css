@@ -13,11 +13,13 @@ function Cards() {
                     <div className='relative' >
 
                         <ul className='mb-5 md:flex '>
-                            <CardItem
-                                src='https://i.ibb.co/gzGTRHw/wlh.png'
-                                text='WLH Grandes Alturas is a website with information about the company, I built the whole website '
-                                path='/wlh'
+                        <CardItem
+                                src='https://i.ibb.co/VCjLbL6/marktechj.png'
+                                text='MARKTECH is an unfinish prototype of an online gamer store '
+
+                                path='/marktech'
                             />
+                       
 
 
                             <CardItem
@@ -25,33 +27,34 @@ function Cards() {
                                 text='COVID 19 web site that shows the data of the covid 19 in el salvador and in central america '
                                 path='/covid19sv'
                             />
-                            <CardItem
-                                src='https://i.ibb.co/W0fR0xn/casatic.png'
-                                text='CASA TIC web site'
-
-                                path='/casa-tic'
-                            />
-
-                        </ul>
-                        <ul className='mb-5 md:flex'>
-                            <CardItem
-                                src='https://i.ibb.co/VCjLbL6/marktechj.png'
-                                text='MARKTECH is an unfinish prototype of an online gamer store '
-
-                                path='/marktech'
-                            />
-
-                            <CardItem
+                              <CardItem
                                 src='https://i.ibb.co/Tc09mPG/Copia-de-Copia-de-on-the-rocks.png'
                                 text=' ON THE ROCKS is a website under development where you can get information about the company'
 
                                 path='/on-the-rocks'
                             />
+                       
+
+                        </ul>
+                        <ul className='mb-5 md:flex'>
+                        <CardItem
+                                src='https://i.ibb.co/gzGTRHw/wlh.png'
+                                text='WLH Grandes Alturas is a website with information about the company, I built the whole website '
+                                path='/wlh'
+                            />
+                        {/* <CardItem
+                                src='https://i.ibb.co/W0fR0xn/casatic.png'
+                                text='CASA TIC web site'
+
+                                path='/casa-tic'
+                            />
+                       */}
+                          
                             <CardItem
                                 src='https://i.ibb.co/C9sgSmF/logos.png'
                                 text=' In my CodePen you will find some small but interesting projects'
 
-                                path='https://codepen.io/beck2301'
+                                path='wait'
                             />
 
                         </ul>
