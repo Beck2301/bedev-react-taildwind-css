@@ -29,7 +29,7 @@ function Cards() {
                                 src='https://i.ibb.co/W0fR0xn/casatic.png'
                                 text='CASA TIC web site'
 
-                                path='/'
+                                path='/casa-tic'
                             />
 
                         </ul>
@@ -38,14 +38,14 @@ function Cards() {
                                 src='https://i.ibb.co/VCjLbL6/marktechj.png'
                                 text='Marktech website'
 
-                                path='/'
+                                path='/marktech'
                             />
 
                             <CardItem
                                 src='https://i.ibb.co/Tc09mPG/Copia-de-Copia-de-on-the-rocks.png'
                                 text='OntheRocks website'
 
-                                path='/'
+                                path='/on-the-rocks'
                             />
                             <CardItem
                                 src='https://raw.githubusercontent.com/briancodex/react-website-v1/master/public/images/img-3.jpg'
