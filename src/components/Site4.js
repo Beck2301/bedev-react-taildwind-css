@@ -1,6 +1,12 @@
 import React from 'react'
 import Footer from './Footer'
+import { useEffect } from 'react'
+
 function Site4() {
+    useEffect(() => {
+        window.scrollTo({ top: 0 })
+        return () => { window.scrollTo({ top: 0 }) };
+    }, [])
     return (
 
         <>

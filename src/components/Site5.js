@@ -1,7 +1,14 @@
 import React from 'react'
 import Footer from './Footer'
+import { useEffect } from 'react'
+
 function Site5() {
+    useEffect(() => {
+        window.scrollTo({ top: 0 })
+        return () => { window.scrollTo({ top: 0 }) };
+    }, [])
     return (
+        
 
         <>
             <h1 class="wow animate__animated animate__fadeInDown  md:text-3xl md:my-14 m-5 font-bold rounded-lg  tracking-wider  text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600 text-center" >ON THE ROCKS</h1>
