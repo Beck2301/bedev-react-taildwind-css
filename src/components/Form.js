@@ -26,7 +26,7 @@ const Form = () => {
            <h1 class="wow animate__animated animate__fadeInDown  md:text-3xl md:my-14 m-5 font-bold rounded-lg  tracking-wider  text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600 text-center" >Contact me</h1>
              <div className=" p-11 md:flex text-justify content-center ">
               
-                <form onSubmit={handleSubmit} className="md:py-12 md:px-12 px-6 py-6 flex-1  dark:bg-black rounded-2xl shadow-2xl dark:border-yellow-500 ">
+                <form onSubmit={handleSubmit} className="md:py-12 md:px-12 px-6 py-6 flex-1   dark:bg-black rounded-2xl shadow-2xl dark:border-yellow-500 ">
                     <div className="text-3xl font-bold text-center mb-4 cursor-pointer dark:text-white"><h3 className="font-weight-bold mb-4"> Say Hello <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/waving-hand_1f44b.png" alt="" className="w-11 text-center  md:w-10 inline wow animate__animated animate__shakeX " /> </h3>
                     </div>
 
@@ -62,19 +62,19 @@ const Form = () => {
                 <div className="flex-1 mt-6">
                        {/* eslint-disable-next-line  */}
                     <a href="https://github.com/Beck2301" target="_blank">
-                    <img src="https://i.ibb.co/8xfvHT8/Download-my-CV-1.png " className="dark:border-yellow-500 border-2 h-36 m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer"  alt=""/>
+                    <img src="https://i.ibb.co/8xfvHT8/Download-my-CV-1.png " className="dark:border-yellow-500 border-t-2 h-36 m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer"  alt=""/>
                     </a>
                    <br/>
                       {/* eslint-disable-next-line  */}
                    <a href="https://www.linkedin.com/in/bryan-escobar-guevara/" target="_blank">
-                    <img src="https://i.ibb.co/Gpw6JZ9/Download-my-CV.png " className=" dark:border-yellow-500 border-2 h-36  m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer" alt=""/>
+                    <img src="https://i.ibb.co/Gpw6JZ9/Download-my-CV.png " className=" dark:border-yellow-500 border-t-2  h-36  m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer" alt=""/>
                      </a>
                     <br/>
                     {/* eslint-disable-next-line  */}
                     <a href="https://bedevme.000webhostapp.com/BryanEscobarcv.pdf" target="_blank">
-                    <div className=" dark:border-yellow-500 border-2 h-36 bg-white shadow-2xl  dark:bg-black m-auto w-72 text-center dark:text-white rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer">
+                    <div className=" dark:border-yellow-500 border-t-2 h-36 bg-white shadow-2xl  dark:bg-black m-auto w-72 text-center dark:text-white rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer">
                            
-                            <h1 className=" font-bold py-12 text-2xl px-2">Dowload my resume <i class="fas fa-arrow-circle-down"></i></h1>
+                            <h1 className=" font-bold py-12 text-2xl px-2">Dowload my resume <i class="fas fa-arrow-circle-down dark:text-white"></i></h1>
                     </div>
                     </a>
               </div>
