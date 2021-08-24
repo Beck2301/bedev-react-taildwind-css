@@ -23,18 +23,15 @@ function Site1() {
                 </div>
 
             </div>
-            <div className="md:py-28 flex items-center justify-center m-auto md:flex-row flex-col">
-                <img src="https://i.ibb.co/RTJnRYk/5.pngg" alt="" className=" m-auto wow animate__animated animate__fadeInUp  md:w-2/6" />
-                <img src="https://i.ibb.co/YDP38N4/6.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-2/6 " />
-            </div>
-
-            <div className="text-white text-center p-10 ">
-                     {/* eslint-disable-next-line  */}
-                <a href="https://wlhgrandesalturas.com" target="_blank" className="">
-                    <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-12 shadow-2xl md:text-5xl text-lg rounded-2xl dark:text-white text-black">
-                        Visit WLH Grandes Alturas <i class="fas fa-link dark:text-white"></i>
+            <div className="md:p-28 flex items-center justify-center m-auto md:flex-row flex-col">
+            <img src="https://i.ibb.co/YDP38N4/6.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1" />
+                
+                <a href="https://wlhgrandesalturas.com" target="_blank" className="flex-1">
+                    <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-9 shadow-lg md:text-5xl text-lg rounded-2xl dark:text-white text-black">
+                         WLH Grandes Alturas <i class="fas fa-link dark:text-white"></i>
                     </button>
                 </a>
+              
             </div>
             <Footer />
         </>
