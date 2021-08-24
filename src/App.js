@@ -12,6 +12,7 @@ import Site2 from './components/Site2';
 import Site4 from './components/Site4';
 import Site5 from './components/Site5';
 import NotFound from './components/pages/NotFound';
+import Contact from './components/pages/Contact';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/covid19sv' component={Site2}/>
           <Route path='/marktech' component={Site4}></Route>
           <Route path='/on-the-rocks' component={Site5}></Route>
+          <Route path='/contact' component={Contact}></Route>
           <Route component={NotFound} />
         </Switch>
       </Router>
