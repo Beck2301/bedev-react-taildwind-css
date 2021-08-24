@@ -24,7 +24,7 @@ function Cards() {
 
                             <CardItem
                                 src='https://i.ibb.co/0VWFWHK/covid19.png'
-                                text='COVID 19 web site that shows the data of the covid 19 in el salvador and in central america '
+                                text='COVID 19 web site that shows the data of the covid 19 in El Salvador and in central america '
                                 path='/covid19sv'
                             />
                               <CardItem
