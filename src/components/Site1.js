@@ -25,8 +25,9 @@ function Site1() {
             </div>
             <div className="md:p-28 flex items-center justify-center m-auto md:flex-row flex-col">
             <img src="https://i.ibb.co/YDP38N4/6.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1" />
-                
+           {/* eslint-disable-next-line */}
                 <a href="https://wlhgrandesalturas.com" target="_blank" className="flex-1">
+                    
                     <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-9 shadow-lg md:text-5xl text-lg rounded-2xl dark:text-white text-black">
                          WLH Grandes Alturas <i class="fas fa-link dark:text-white"></i>
                     </button>
