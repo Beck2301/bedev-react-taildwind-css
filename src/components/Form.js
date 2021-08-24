@@ -62,17 +62,17 @@ const Form = () => {
                 <div className="flex-1 mt-6">
                        {/* eslint-disable-next-line  */}
                     <a href="https://github.com/Beck2301" target="_blank">
-                    <img src="https://i.ibb.co/8xfvHT8/Download-my-CV-1.png " className="dark:border-yellow-500 border-t-2 h-36 m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer"  alt=""/>
+                    <img src="https://i.ibb.co/8xfvHT8/Download-my-CV-1.png " className="dark:border-yellow-500  border-l-2 md:border-b-2 h-36 m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer"  alt=""/>
                     </a>
                    <br/>
                       {/* eslint-disable-next-line  */}
                    <a href="https://www.linkedin.com/in/bryan-escobar-guevara/" target="_blank">
-                    <img src="https://i.ibb.co/Gpw6JZ9/Download-my-CV.png " className=" dark:border-yellow-500 border-t-2  h-36  m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer" alt=""/>
+                    <img src="https://i.ibb.co/Gpw6JZ9/Download-my-CV.png " className=" dark:border-yellow-500 border-l-2 md:border-b-2 h-36  m-auto shadow-2xl rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer" alt=""/>
                      </a>
                     <br/>
                     {/* eslint-disable-next-line  */}
                     <a href="https://bedevme.000webhostapp.com/BryanEscobarcv.pdf" target="_blank">
-                    <div className=" dark:border-yellow-500 border-t-2 h-36 bg-white shadow-2xl  dark:bg-black m-auto w-72 text-center dark:text-white rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer">
+                    <div className=" dark:border-yellow-500 md:border-b-2 border-l-2 h-36 bg-white shadow-2xl  dark:bg-black m-auto w-72 text-center dark:text-white rounded-2xl  transform transition duration-500 hover:scale-105 cursor-pointer">
                            
                             <h1 className=" font-bold py-12 text-2xl px-2">Dowload my resume <i class="fas fa-arrow-circle-down dark:text-white"></i></h1>
                     </div>
