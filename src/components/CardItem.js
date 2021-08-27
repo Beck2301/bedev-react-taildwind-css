@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function CardItem(props) {
   return (
     <>
-      <li className='flex flex-1 mr-4 ml-4 rounded-xl md:mb-2  mb-8 '>
+      <li className={props.className}>
         <Link className='flex flex-col w-full shadow-2xl rounded-2xl overflow-hidden no-underline' to={props.path}>
           
           <figure className='cards__item__pic-wrap relative w-full  pt-16 overflow-hidden' >
