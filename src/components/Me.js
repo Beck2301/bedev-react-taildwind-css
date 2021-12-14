@@ -14,7 +14,7 @@ function Me() {
                     <div class="pl-4 pr-4 md:flex-1 m-auto  md:text-justify  dark:text-white">
                         <h1 class="text-5xl  md:text-8xl mb-5" >HI <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/waving-hand_1f44b.png" alt="" className="w-11 text-center  md:w-20 inline wow animate__animated animate__shakeX " /> I am </h1>
                         <h1 class="text-6xl  md:text-8xl   mb-5 ">Bryan Escobar </h1>
-                        <h1 class=" md:text-3xl">Salvadoran web developer</h1>
+                        <h1 class=" md:text-3xl">Salvadorian web developer</h1>
                         <Link to='/about'>
                         <button class="px-10 py-3 mt-4 text-base border-yellow-300 text-black  dark:border-white   dark:text-yellow-400 border-2 rounded-3xl hover:bg-yellow-400 dark:  dark:hover:text-black hover:border-black   dark:hover:bg-yellow-500  dark:hover:border-yellow-500" >About me</button>
                         </Link>
