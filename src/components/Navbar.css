@@ -90,6 +90,11 @@
       position: relative;
     }
   
+    @media only screen and (max-width: 600px) {
+      .nav-menu {
+        height: 455px;
+      }
+    }
     .nav-menu {
       display: flex;
       flex-direction: column;
