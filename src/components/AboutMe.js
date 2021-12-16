@@ -6,7 +6,7 @@ function AboutMe() {
             <div class="text-center mt-20 c-first dark:bg-dark">
                 <div class="md:flex  ">
                     <div class="flex-1 m-auto">
-                        <img src="https://i.ibb.co/jrW7rX6/beck.png" alt="" class=" w-72 mb-6 md:w-96  rounded-lg border-yellow-400 border-b-4 m-auto wow animate__animated animate__fadeInLeft" />
+                        <img src="https://i.ibb.co/whcvS3r/beck-3.png" alt="" class=" w-72 mb-6 md:w-96  rounded-lg border-yellow-400 border-b-4 m-auto wow animate__animated animate__fadeInLeft" />
                     </div>
                     <div class="pl-4 pr-4 md:flex-1 m-auto  md:text-left dark:text-white">
                         <h1 class="wow animate__animated animate__fadeInDown   mb-9 font-bold rounded-lg  tracking-widest  text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600" >ABOUT ME </h1>
