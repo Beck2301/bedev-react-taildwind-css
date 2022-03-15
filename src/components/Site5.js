@@ -33,9 +33,9 @@ function Site5() {
 
             </div>
             <div className="md:px-28 py-11 flex items-center justify-center m-auto md:flex-row flex-col">
-                <img src="https://i.ibb.co/SvxPY2k/10.png" alt="" className=" m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1" />
+                <img src="https://i.ibb.co/SvxPY2k/10.png" alt="" className=" m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1 img-responsive" />
                     {/* eslint-disable-next-line  */}
-                    <a href="https://beck2301.github.io/on-the-rocks/" target="_blank" className="flex-1">
+                    <a href="https://beck2301.github.io/on-the-rocks/" target="_blank" className="flex-1 ">
                     
                     <button class="transition duration-500 ease-in-out  hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 p-9 shadow-lg md:text-5xl text-lg rounded-2xl dark:text-white text-black">
                        On The Rocks Website <i class="fas fa-link dark:text-white"></i>

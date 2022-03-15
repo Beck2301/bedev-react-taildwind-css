@@ -31,7 +31,7 @@ function Site4() {
 
             </div>
             <div className="md:px-28 py-11 flex items-center justify-center m-auto md:flex-row flex-col">
-                <img src="https://i.ibb.co/GCth7cL/9.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1" />
+                <img src="https://i.ibb.co/GCth7cL/9.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1 img-responsive" />
                  {/* eslint-disable-next-line */}
                 <a href="https://beck2301.github.io/marktechsv/" target="_blank" className="flex-1">
                     

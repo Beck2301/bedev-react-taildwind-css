@@ -30,7 +30,7 @@ function Site1() {
                 {/* https://i.ibb.co/mRnhbg0/4.png */}
             </div>
             <div className="md:px-28 py-11 flex items-center justify-center m-auto md:flex-row flex-col">
-            <img src="https://i.ibb.co/YDP38N4/6.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1" />
+            <img src="https://i.ibb.co/YDP38N4/6.png" alt="" className="m-auto wow animate__animated animate__fadeInUp  md:w-14 flex-1 img-responsive" />
            {/* eslint-disable-next-line */}
                 <a href="https://wlhgrandesalturas.com" target="_blank" className="flex-1">
                     
