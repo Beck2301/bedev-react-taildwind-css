@@ -2,9 +2,11 @@
   transition: 0.1125s;
   -webkit-tap-highlight-color: transparent;
 }
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
