@@ -1,32 +1,23 @@
-/* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+html {
+  scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+body {
+  @apply bg-white text-black;
+  @apply font-poppins;
+  @apply overflow-hidden
 }
 
-body::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255);        /* color of the tracking area */
+body.dark {
+  @apply bg-black text-white;
 }
 
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
-}
-
-.c-first{
-  margin-top: 5%;
-}
-
-.udb-logo{
-  background-image: url('https://i.ibb.co/fF2ccz8/logo-udb-transparente.png');
+section {
+  scroll-snap-align: start;
+  height: 100vh;
 }

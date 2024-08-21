@@ -1,26 +1,18 @@
+// tailwind.config.js
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'class',
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
   theme: {
-       letterSpacing: {
-       tightest: '-.075em',
-        tighter: '-.05em',
-       tight: '-.025em',
-        normal: '0',
-       wide: '.025em',
-        wider: '0.8rem',
-       widest: '1.5rem',
-       },
-       extend:{
-         colors:{
-          blue: {
-            dark: '#1f2447',
-          },
-         }
-       }
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+      backgroundImage: {
+        "orange-gradient": "linear-gradient(90deg, #FF6B00 0%, #FFBD6F 100%)",
+      },
+    },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
-}
+};
