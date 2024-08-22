@@ -10,7 +10,7 @@ html {
 body {
   @apply bg-white text-black;
   @apply font-poppins;
-  @apply overflow-hidden
+  @apply md:overflow-hidden overflow-x-hidden
 }
 
 body.dark {

@@ -19,7 +19,7 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
           <img
             src="/Me.png"
             alt="Me"
-            className="w-52 mx-auto mb-5 relative z-10"
+            className="w-52 mx-auto mb-5 relative z-10 rounded-full shadow-2xl"
           />
           <div className="absolute top-0 right-0 z-0">
             <svg
@@ -174,8 +174,8 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
         <p className="text-xl bg-clip-text text-transparent bg-orange-gradient">
           Desarrollador Frontend
         </p>
-        <div className="absolute -right-72 bottom-0">
-          <img src="/linea.svg" alt="Line" className="w-full h-full" />
+        <div className="absolute md:-right-72 right-0 md:bottom-0 -bottom-52 ">
+          <img src="/linea.svg" alt="Line" className="md:w-full h-full" />
         </div>
       </div>
     </motion.section>

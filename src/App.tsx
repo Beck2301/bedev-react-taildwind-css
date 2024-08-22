@@ -10,14 +10,12 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
-import Sidebar from "./components/Slidebar";
 
 const App: React.FC = () => {
   return (
     <Router>
       <div className="relative">
         <Header />
-        <Sidebar />
         <main>
           <Routes>
             <Route path="/" element={<Navigate to="/hero" replace />} />
