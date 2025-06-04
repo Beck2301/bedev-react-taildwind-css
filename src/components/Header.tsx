@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { MdLightMode, MdOutlineLightMode } from "react-icons/md";
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  lang: "es" | "en";
+  setLang: (lang: "es" | "en") => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ lang, setLang }) => {
   const [darkMode, setDarkMode] = useState<boolean>(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
 
@@ -30,7 +35,6 @@ const Header: React.FC = () => {
           darkMode ? "text-white" : "text-black"
         } z-50`}
       >
-        {/* Logo y menú hamburguesa para móviles */}
         <div className="flex items-center justify-between md:hidden">
           <img
             src={darkMode ? "/logo_white.svg" : "/logo_black.svg"}
@@ -46,7 +50,6 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        {/* Logo para versión de escritorio */}
         <div className="hidden md:flex text-xl font-bold items-center">
           <img
             src={darkMode ? "/logo_white.svg" : "/logo_black.svg"}
@@ -55,18 +58,27 @@ const Header: React.FC = () => {
           />
         </div>
 
-        {/* Botón de modo oscuro para todos los dispositivos */}
-        <button
-          onClick={toggleDarkMode}
-          className={`fixed z-50 ${
-            isSidebarOpen ? "bottom-20" : "bottom-4"
-          } right-4 text-2xl md:static md:bottom-4 md:right-4 md:top-auto`}
+        <div
+          className={`fixed z-50 flex flex-col items-end gap-2 ${
+            isSidebarOpen ? "bottom-32" : "bottom-4"
+          } right-4 md:static md:bottom-4 md:right-4 md:flex-row md:items-center`}
         >
-          {darkMode ? <MdOutlineLightMode /> : <MdLightMode />}
-        </button>
+          <button
+            onClick={toggleDarkMode}
+            className="text-2xl p-2 rounded-full border border-gray-300 dark:border-gray-600 bg-white/70 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+          >
+            {darkMode ? <MdOutlineLightMode /> : <MdLightMode />}
+          </button>
+
+          <button
+            onClick={() => setLang(lang === "es" ? "en" : "es")}
+            className="text-sm px-3 py-1 rounded-full border border-gray-300 dark:border-gray-600 bg-white/70 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+          >
+            {lang === "es" ? "EN" : "ES"}
+          </button>
+        </div>
       </header>
 
-      {/* Fondo oscuro con desenfoque cuando el Sidebar está abierto en móviles */}
       {isSidebarOpen && (
         <div
           className="fixed inset-0 bg-black opacity-50 z-40 md:hidden backdrop-blur-sm"
@@ -74,7 +86,6 @@ const Header: React.FC = () => {
         ></div>
       )}
 
-      {/* Sidebar para móviles como ventana flotante */}
       <div
         className={`fixed top-1/2 left-1/2 w-64 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-4 transition-transform transform z-50 ${
           isSidebarOpen
@@ -125,7 +136,6 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Sidebar rotado para versión de escritorio */}
       <div className="hidden md:flex fixed top-0 left-0 h-screen w-64 items-center z-50">
         <div className="pl-10">
           <ul className="flex flex-col gap-10 mt-20">
